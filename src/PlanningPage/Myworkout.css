@@ -1,0 +1,26 @@
+.workoutpage{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .workout{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 8cm;
+    height: 5cm;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.gupter-regular {
+    font-family: "Gupter", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+  }

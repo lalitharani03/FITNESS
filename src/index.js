@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CartProvider } from './shop/CartContext';
+import { AuthProvider } from './context/AuthContext';
+// import CartProvider from './store/cartprovider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <CartProvider> */}
+    <AuthProvider>
+    <CartProvider>
     <App />
+    </CartProvider>
+
+    </AuthProvider>
+    {/* </CartProvider> */}
   </React.StrictMode>
 );
 

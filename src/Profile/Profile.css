@@ -1,0 +1,224 @@
+/* .main{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+.customer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100vh;
+  }
+  
+  .customer-section {
+    display: flex;
+  }
+  
+  .customer-labels,
+  .customer-values {
+    flex: 1;
+  }
+  
+  .customer-labels p,
+  .customer-values p {
+    margin: 5px 0;
+  }
+  
+  .customer-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .customer-actions button {
+    margin-left: 10px;
+  }
+   */
+   /* .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo-upload {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+  }
+  
+  .profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .upload-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .profile-photo-container:hover .upload-overlay {
+    opacity: 1;
+  }
+  
+  .upload-overlay label {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .upload-overlay input {
+    display: none;
+  }
+  
+  .customer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100vh;
+  }
+  
+  .customer-section {
+    display: flex;
+  }
+  
+  .customer-labels,
+  .customer-values {
+    flex: 1;
+  }
+  
+  .customer-labels p,
+  .customer-values p {
+    margin: 5px 0;
+  }
+  
+  .customer-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .customer-actions button {
+    margin-left: 10px;
+  }
+   */
+   .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo-upload {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+  }
+  
+  .profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .upload-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .profile-photo-container:hover .upload-overlay {
+    opacity: 1;
+  }
+  
+  .upload-overlay label {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .upload-overlay input {
+    display: none;
+  }
+  
+  .customer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 60vw;
+  }
+  
+  .customer-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .customer-labels,
+  .customer-values {
+    flex: 1;
+  }
+  
+  .customer-labels p,
+  .customer-values p {
+    margin: 5px 0;
+  }
+  
+  .customer-actions button {
+    margin-left: 10px;
+  }
+  .customer-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .diet-plan-container{
+    text-decoration: dotted;
+  }
